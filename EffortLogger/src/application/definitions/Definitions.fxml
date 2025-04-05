@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="960.0" prefWidth="540.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.definitions.DefinitionsController">
+   <children>
+      <ImageView fitHeight="261.0" fitWidth="210.0" layoutX="165.0" layoutY="281.0" pickOnBounds="true" preserveRatio="true">
+         <Image url="@definition.png" />
+      </ImageView>
+      <Label layoutX="177.0" layoutY="132.0" text="Definitions">
+         <font>
+            <Font size="42.0" />
+         </font>
+      </Label>
+      <Button fx:id="dashboardButton" layoutX="14.0" layoutY="911.0" mnemonicParsing="false" text="Return to Dashboard">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="127.0" layoutY="650.0" text="Type">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="typeChoiceBox" layoutX="205.0" layoutY="650.0" prefHeight="25.0" prefWidth="210.0" />
+      <Label layoutX="127.0" layoutY="700.0" text="Name">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nameTextField" layoutX="205.0" layoutY="700.0" prefHeight="25.0" prefWidth="210.0" />
+      <Button fx:id="deleteButton" layoutX="127.0" layoutY="750.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="135.0" text="Delete">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="saveButton" layoutX="280.0" layoutY="750.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="135.0" text="Save">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
